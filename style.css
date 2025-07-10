@@ -19,6 +19,9 @@ Phone: +880-1816-120934
     font-optical-sizing: auto;
     font-style: normal;
 }
+body{
+    background-color: #F5F8FF;
+}
 
 /*
 ===================================
@@ -73,7 +76,6 @@ header .banner h1{
     justify-content: space-between;
     align-items: center;
     padding: 120px 150px;
-    background-color: #F5F8FF;
 }
 .action-content h3{
     font-size: 42px;
@@ -95,5 +97,46 @@ header .banner h1{
 /*
 ===================================
         Action Section End
+===================================
+*/
+
+/*
+===================================
+        User Section Start
+===================================
+*/
+.user{
+    background-color: #E5E7FF;
+    text-align: center;
+    margin: 120px 150px;
+    border-radius: 24px;
+    padding: 50px 150px;
+}
+.user h3{
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+}
+.user-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.user-content h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.user-content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5)
+    margin: 20px auto;
+}
+/*
+===================================
+        User Section End
 ===================================
 */
