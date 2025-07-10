@@ -3,7 +3,11 @@ Author: Saifur Rahman Chowdhury
 Email: chysaifurrahmanbd@gmail.com
 Phone: +880-1816-120934
 */
-
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /*
 ===================================
         Universal Styles
@@ -11,6 +15,9 @@ Phone: +880-1816-120934
 */
 *{
     margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /*
@@ -19,7 +26,7 @@ Phone: +880-1816-120934
 ===================================
 */
 header{
-    background-image: url(../B12A01-assignment/images/Hero-bg.png);
+    background-image: url(images/Hero-bg.png);
     background-size: cover;
     padding: 50px 150px;
 }
@@ -31,7 +38,6 @@ header nav{
     max-height: 150px;
 }
 header nav h3{
-    font-family: sans-serif;
     font-size: 34px;
     font-weight: 900;
     color: #4E47FF;
@@ -51,9 +57,43 @@ header .banner{
     padding: 150px 250px;
 }
 header .banner h1{
-    font-family: sans-serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 40px;
     color: #252432;
 }
+
+/*
+===================================
+        Action Section Start
+===================================
+*/
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 150px;
+    background-color: #F5F8FF;
+}
+.action-content h3{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+.action-content p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #6B6B6B;
+    margin: 20px auto;
+}
+.action-image img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 48px;
+}
+/*
+===================================
+        Action Section End
+===================================
+*/
