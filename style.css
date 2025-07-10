@@ -3,11 +3,7 @@ Author: Saifur Rahman Chowdhury
 Email: chysaifurrahmanbd@gmail.com
 Phone: +880-1816-120934
 */
-.inter-normal{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
+
 /*
 ===================================
         Universal Styles
@@ -21,6 +17,29 @@ Phone: +880-1816-120934
 }
 body{
     background-color: #F5F8FF;
+}
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #96355A;
+    color: white;
+    font-weight: 600;
+    text-shadow: 0px 0px 10.9px #F7600E;
+    box-shadow: 0 5px 15px #F7600E;
+    transform: scale3d(1.1, 1.1, 1.1)
 }
 
 /*
@@ -45,15 +64,11 @@ header nav h3{
     font-weight: 900;
     color: #4E47FF;
 }
-.btn{
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: #4E47FF;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
+header nav h3:hover{
+    color: #96355A;
+    font-weight: 900;
+    text-shadow: 0px 0px 10px #F7600E;
+    transform: scale3d(1.1, 1.1, 1.1)
 }
 header .banner{
     text-align: center;
@@ -85,7 +100,7 @@ header .banner h1{
 .action-content p{
     font-size: 18px;
     font-weight: 500;
-    color: #6B6B6B;
+    color: #808080;
     margin: 20px auto;
 }
 .action-image img{
@@ -132,8 +147,7 @@ header .banner h1{
 .user-content p{
     font-size: 20px;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.5)
-    margin: 20px auto;
+    color: #808080;
 }
 /*
 ===================================
@@ -184,8 +198,45 @@ header .banner h1{
     height: 32px;
     border-radius: 50%;
 }
+.rating-user h5,
+.rating-user p{
+    color: #808080;
+}
 /*
 ===================================
         Ratings Section End
+===================================
+*/
+
+/*
+===================================
+        Focus Section Start
+===================================
+*/
+.focus{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin: 120px 150px;
+    padding: 70px 150px;
+}
+.focus h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #252432;
+}
+.focus p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #808080;
+    margin: 20px auto;
+}
+.focus-image img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+/*
+===================================
+        Focus Section End
 ===================================
 */
