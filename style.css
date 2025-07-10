@@ -297,3 +297,46 @@ input, textarea{
         Get in Touch Section End
 ===================================
 */
+
+/*
+===================================
+        Footer Section Start
+===================================
+*/
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 100px 450px;
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+footer h1:hover{
+    color: #96355A;
+    font-weight: 900;
+    text-shadow: 0px 0px 10px #F7600E;
+    transform: scale3d(1.1, 1.1, 1.1)
+}
+.footer-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    margin: 20px auto;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8987A1;
+}
+/*
+===================================
+        Footer Section End
+===================================
+*/
